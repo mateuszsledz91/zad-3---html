@@ -1,0 +1,12 @@
+kw1:
+INSERT INTO ratownicy(nrKaretki,ratownik1,ratownik2,ratownik3)
+VALUES(20,"Adam Nowak","Jan Kowalski","Anna Nowakowska")
+
+kw2:
+SELECT zgloszenia.id, zgloszenia.adres, zgloszenia.ratownicy_id from zgloszenia WHERE zgloszenia.dyspozytorzy_id = 4
+
+kw3:
+CREATE USER 'Adam'@'localhost' IDENTIFIED BY 'Adam6&'
+
+kw4:
+GRANT CREATE, DROP, ALTER ON *.* TO 'Adam'@'localhost'
